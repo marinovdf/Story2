@@ -1,0 +1,238 @@
+/* #Media Queries
+================================================== */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 980px) {
+    body{
+        overflow: hidden;
+    }
+
+    .pximage-left,
+    .gonext,
+    #gotop,
+    #top,
+    #part1 .pximage2,
+    #footer span{
+        display: none;
+    }
+
+    .float-right, .float-left {
+        float: none;
+    }
+
+    .column-330,
+    .column-290,
+    .column-620,
+    .column-560,
+    .column-370 {
+        width: 100%;
+    }
+
+    .section, .px {
+        /* min-height: 1000px;*/
+    }
+
+    .px.pxcircles{
+        height: auto !important;
+    }
+
+    .overflow {
+        width: 100%;
+    }
+
+    .set-size {
+        padding-top: 50px !important;
+        width: 100%;
+    }
+
+    #top {
+        display: none;
+        height: auto;
+    }
+
+    #top #logo {
+        text-align: center;
+    }
+
+    #top h1#logo {
+        float: none;
+    }
+
+    #top h1#logo a {
+        display: inline-block;
+    }
+
+    #part1 {
+        height: 1000px;
+        text-align: center;
+        background-position: 0 -100px;
+    }
+
+    #part1 h1 {
+    }
+
+    #part1 .welcome h2{
+        width: auto;
+
+    }
+    #part2 .px {
+        min-height: 0;
+    }
+
+    #part2 .pximage {
+        position: relative;
+        background: url(../images/story2/mobile/mobile_01.png) no-repeat top center;
+        background-size: 100%;
+        max-width: 640px;
+        min-height: 470px;
+
+        width: 100%;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #part2 .pxcircle1 {
+        display: none;
+        float: left;
+    }
+
+    .section {
+        padding: 20px;
+
+        /*float: left !important;*/
+        text-align: justify;
+    }
+
+    /*part3*/
+    #part3{
+        background-size: auto 100%;
+    }
+    #part3 .pxcircles {
+        background: url(../images/story2/p3-infogr.png) no-repeat top center;
+        position: relative;
+        background-size: 100%;
+        width: 100%;
+        max-width: 640px;
+        top: 0;
+        float: left;
+        margin: 0 auto;
+    }
+
+    /* /part3 */
+
+    #part4 .infograph img {
+        display: none;
+    }
+
+    #part4 .infograph {
+        position: relative;
+        background: url(../images/story2/mobile/mobile_3.png) no-repeat top center;
+        background-size: 100%;
+        width: 100%;
+        left: 0;
+        margin: 0 auto;
+        max-width: 640px;
+        min-height: 425px;
+    }
+
+    #part4 .description {
+        float: left !important;
+    }
+
+    #part4 .title {
+        width: 100%;
+    }
+
+    /*folio2*/
+    #part5{
+        background-size: auto 100%;
+    }
+    #part5 .pximage-right {
+        position: relative;
+
+        background: url(../images/story2/mobile/mobile_02.png) no-repeat;
+        background-size: 100%;
+        width: 100%;
+        left: 0;
+        margin: 0 auto;
+        max-width: 640px;
+        min-height: 455px;
+    }
+
+    #part5 .pximage-left {
+        display: none;
+    }
+
+    /*/folio2*/
+
+    /*part6*/
+    #part6 .descr {
+        width: 100%;
+    }
+
+    #part6 .set-size {
+        padding-top: 100px;
+    }
+
+    #part6 .video {
+        top: 0;
+        margin: 0 auto;
+    }
+
+    #part6 .px {
+        display: none;
+    }
+
+    /* /part6*/
+
+    /*part8*/
+    #part8 {
+        background-size: auto 100%;
+        height: auto;
+    }
+
+    #part8 .px {
+        display: none;
+    }
+
+    #part8 .media {
+        margin-top: 0;
+    }
+
+    #part8 .video {
+        margin: 0 auto;
+        max-width: 560px;
+    }
+
+    #part8 .descr {
+        margin-top: 0;
+    }
+
+    #part9 .descr{
+        font-size: 38px;
+    }
+    /* /part9*/
+    /*contact*/
+    #contact {
+        min-height: 1200px;
+    }
+
+    #contact .ribbon, #contact .ribbon-shadow {
+        display: none;
+    }
+
+    #contact-form .input-textarea{
+        width: 182px;
+    }
+    /* /contact*/
+
+
+    #footer img{
+        margin: 0;
+    }
+
+    #footer .set-size{
+        padding-top: 37px !important;
+        text-align: center;
+    }
+}
