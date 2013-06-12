@@ -8,7 +8,16 @@ function goToByScroll(id){
 }
 
 $(document).ready(function() {
-						   
+//resize video on small screen
+    if(document.width <= 980){
+        $('.video iframe').width('100%');
+        $('.video iframe').height(($(this).width())/1.9);
+
+        $(window).on('resize',function(){
+            $('.video iframe').height(($(this).width())/1.9);
+        })
+    }
+
 $(window).scrollTop(1); // fix for parallax init
 window.sectionHeight = 860; //height of 1 slide, css: .section class height value
 
