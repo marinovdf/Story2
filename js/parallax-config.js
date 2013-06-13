@@ -22,7 +22,6 @@ $(document).ready(function(){
         $("#part6").parallax("50%", 3750, 0.1, true);
         $("#part7").parallax("50%", 4500, 0.1, true);
         $("#part8").parallax("50%", 5800, 0.1, true);
-        $("#part9").parallax("50%", 6200, 0.7, true);
         $("#contact").parallax("50%", 6750,0.8, true);
 
         $("#part1 .pximage1").parallax("50%", 2000, 0.3, true);

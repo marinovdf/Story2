@@ -540,11 +540,14 @@ p.title {
 }
 
 .list-social {
+    width: 285px;
+    margin: 0 auto;
+    padding: 30px 0 0 50px;
 }
 
 .list-social li {
     float: left;
-    padding: 0 5px 0 0;
+    padding: 0 15px 0 0;
 }
 
 .list-social li a {
@@ -696,8 +699,8 @@ p.title {
 
 /* footer */
 #footer {
-    background: #000;
-    height: 100px;
+    background: rgba(0, 0, 0, 0.70);
+    height: 80px;
     position: relative;
     z-index: 800;
     color: #ababab;
@@ -709,10 +712,13 @@ p.title {
     width: 46px;
     height: 46px;
     float: right;
+    position: relative;
+    margin: 0;
+    bottom: 14px;
 }
 
 #footer .set-size {
-    padding: 33px 0;
+    padding: 31px 0;
     position: relative;
 }
 
@@ -1060,7 +1066,7 @@ p.title {
 }
 
 #part8 .descr {
-    margin-top: 100px;;
+    margin-top: 100px;
 }
 
 #part8 .descr h3 {
@@ -1130,28 +1136,30 @@ p.title {
 
 /* /part8 */
 
-/* part 9 */
-#part9 {
-    height: 300px;
-    background: url(../images/story2/p1-bg.jpg) center -300px no-repeat;
-}
-
-#part9 .descr {
-    height: 300px;
-    font-size: 48px;
-    color: #fff;
-    text-align: center;
-}
-
-/* /part 9 */
-
 /* contact */
 #contact {
     color: #ffffff;
 }
 
 #contact .overflow {
-    height: 780px;
+    height: 700px;
+    text-align: center;
+}
+
+#contact h3{
+    font-size: 48px;
+    padding: 0;
+}
+
+#contact h4{
+    font-size: 24px;
+    padding: 0;
+    margin-bottom: 110px;
+}
+
+#contact .share-btns{
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 #contact input {

@@ -1,5 +1,6 @@
 Cufon.replace('h1, h2, h3, h4, h5, h6, p, a', { fontFamily: 'DINCyr-Regular', hover: true });
-Cufon.replace('h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, .btn', { fontFamily: 'DINCyr Regular Bold', hover: true });
+Cufon.replace('.medium', { fontFamily: 'DINCyr-Medium', hover: true });
+Cufon.replace('strong, .strong, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, .btn', { fontFamily: 'DINCyr-Bold', hover: true });
 Cufon.replace('#part1 h1',{fontFamily:'DINCyr-Regular',hover:true, textShadow:'-2px 2px 3px rgba(0,0,0, .5)'});
 Cufon.replace('#part1 h2',{fontFamily:'DINCyr-Regular',hover:true, textShadow:'-1px 1px 1px #fff'});
 /* function for site scrolling */
