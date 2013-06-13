@@ -497,6 +497,7 @@ p.title {
     width:980px;
     margin: 0 auto;
     height: 50px;
+    z-index: 502;
 }
 
 
