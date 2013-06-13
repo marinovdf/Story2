@@ -43,11 +43,7 @@ $(document).ready(function(){
         $("#part8 .pximage-right").parallax("50%", 6980, 0.4, true);
         $("#part8 .pximage-left").parallax("50%", 6980, 0.4, true);
 
-
-
-
         $("#contact .ribbon").parallax("50%", 7440, 0.7, true);
-        //$("#contact .ribbon-shadow").parallax("50%", 7200, 0.4, true);
 
         $("#part3 .pxcircles").parallax("50%", 2680, 0.6, true);
 

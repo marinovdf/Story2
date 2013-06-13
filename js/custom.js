@@ -51,37 +51,11 @@ $(window).bind("scroll", function(){
 });
 
 
-/* hire button animation */
-$("#hire").mouseenter(function() {
-		$(this).animate({ "margin-top": "-3px" }, 300)
-	}).mouseleave(function() {
-		$(this).animate({ "margin-top": "0px" }, 300);
-});
 
-/* gotop button animation and action */
-$(".ribbon a").mouseenter(function() {
-		$(this).animate({ "margin-top": "-3px" }, 300)
-	}).mouseleave(function() {
-		$(this).animate({ "margin-top": "0px" }, 300);
-});
 $(".ribbon a").click(function(){
 
 	$("#menu").find("a").removeClass("current");
 	$("#menu li:first-child a").addClass("current");
 
 });
-
-/* gallery fade effect */
-$(".gallery li a").mouseenter(function(){
-
-	$(this).find("span").fadeIn(200);
-									   
-}).mouseleave(function(){
-	
-	$(this).find("span").fadeOut(200);
-	
-});
-
-$(".gallery li:nth-child(4n)").addClass("format");
-
 });
