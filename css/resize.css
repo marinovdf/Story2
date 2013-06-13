@@ -11,8 +11,7 @@
     .gonext,
     #gotop,
     #top,
-    #part1 .pximage2,
-    #footer span{
+    #part1 .pximage2{
         display: none;
     }
 
@@ -214,7 +213,8 @@
     /* /part9*/
     /*contact*/
     #contact {
-        min-height: 1200px;
+
+        padding: 0;
     }
 
     #contact .ribbon, #contact .ribbon-shadow {
@@ -232,7 +232,8 @@
     }
 
     #footer .set-size{
-        padding-top: 37px !important;
+        padding-top: 32px !important;
         text-align: center;
+        margin-top: 30px;
     }
 }
