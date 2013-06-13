@@ -75,6 +75,10 @@
         width: auto;
 
     }
+
+    #part1 .pximage3{
+        top: 400px;
+    }
     #part2 .px {
         min-height: 0;
     }

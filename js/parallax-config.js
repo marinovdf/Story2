@@ -27,7 +27,7 @@ $(document).ready(function(){
 
         $("#part1 .pximage1").parallax("50%", 2000, 0.3, true);
         $("#part1 .pximage2").parallax("50%", 1100, 0.2, true);
-        $("#part1 .pximage3").parallax("50%", 1100, 0.9, true);
+        $("#part1 .pximage3").parallax("50%", 1600, 0.8, true);
 
 
         $("#part2 .pxarrows").parallax("50%", 2650, 0.5, true);
